@@ -1,0 +1,8 @@
+{
+  "projectId": "4sps4h",
+  "testFiles": "**/*.{feature,features}",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOpts.json"
+  }
+}

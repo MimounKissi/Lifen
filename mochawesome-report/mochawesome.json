@@ -1,0 +1,197 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-05-09T09:47:25.131Z",
+    "end": "2020-05-09T09:49:37.871Z",
+    "duration": 132740,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b7761569-8cfe-4d07-b399-e69f9e60a54e",
+      "title": "",
+      "fullFile": "cypress/integration/examples/updatepatientinfo.feature",
+      "file": "cypress/integration/examples/updatepatientinfo.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "08b1024e-1c20-485d-aa54-5ca5c805ee5e",
+          "title": "Patient Page Information",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Update patient lastName (example #1)",
+              "fullTitle": "Patient Page Information Update patient lastName (example #1)",
+              "timedOut": null,
+              "duration": 23084,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f60b6a43-e87d-4c44-9ed1-f61db8738e83",
+              "parentUUID": "08b1024e-1c20-485d-aa54-5ca5c805ee5e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update patient lastName (example #2)",
+              "fullTitle": "Patient Page Information Update patient lastName (example #2)",
+              "timedOut": null,
+              "duration": 23549,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "9bacf0ef-af36-49b5-9cc2-f73ab1c24b7f",
+              "parentUUID": "08b1024e-1c20-485d-aa54-5ca5c805ee5e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update patient firstName (example #1)",
+              "fullTitle": "Patient Page Information Update patient firstName (example #1)",
+              "timedOut": null,
+              "duration": 20101,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "77122a33-312d-4252-a204-97506b84be0e",
+              "parentUUID": "08b1024e-1c20-485d-aa54-5ca5c805ee5e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update patient firstName (example #2)",
+              "fullTitle": "Patient Page Information Update patient firstName (example #2)",
+              "timedOut": null,
+              "duration": 22101,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "37c833e5-c225-4132-831b-9c5a8a724f28",
+              "parentUUID": "08b1024e-1c20-485d-aa54-5ca5c805ee5e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update patient birth date (example #1)",
+              "fullTitle": "Patient Page Information Update patient birth date (example #1)",
+              "timedOut": null,
+              "duration": 20574,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "307a6687-94b6-4422-9df4-2bc491cdc615",
+              "parentUUID": "08b1024e-1c20-485d-aa54-5ca5c805ee5e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update patient birth date (example #2)",
+              "fullTitle": "Patient Page Information Update patient birth date (example #2)",
+              "timedOut": null,
+              "duration": 21574,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "461df534-f985-441b-944b-0e834ddfc9d3",
+              "parentUUID": "08b1024e-1c20-485d-aa54-5ca5c805ee5e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f60b6a43-e87d-4c44-9ed1-f61db8738e83",
+            "9bacf0ef-af36-49b5-9cc2-f73ab1c24b7f",
+            "77122a33-312d-4252-a204-97506b84be0e",
+            "37c833e5-c225-4132-831b-9c5a8a724f28",
+            "307a6687-94b6-4422-9df4-2bc491cdc615",
+            "461df534-f985-441b-944b-0e834ddfc9d3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 130983,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.1.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "configFile": "reporterOpts.json"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

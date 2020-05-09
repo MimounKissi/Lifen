@@ -1,0 +1,31 @@
+{
+  "name": "ProjectTutoCypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^2.3.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@cypress/mocha-teamcity-reporter": "^1.0.0",
+    "cypress": "^4.1.0",
+    "cypress-file-upload": "^4.0.6",
+    "cypress-multi-reporters": "^1.2.4",
+    "cypress-slack-reporter": "^0.5.5",
+    "cypress-xpath": "^1.4.0",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.0.3",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "scripts": {
+    "test": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
